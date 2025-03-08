@@ -1,0 +1,113 @@
+
+.m_img {
+    width: 115px;
+}
+
+.m_img img {
+    width: 100%;
+
+}
+.m_navBar
+{
+    display: flex !important;
+}
+
+.m_slider {
+    /* height: 600px; */
+    background: linear-gradient(261.99deg, #ffe3dd 2.82%, #fff8da 17.1%, rgba(255, 249, 221, 0) 31.78%, hsla(0, 100%, 90%, .04) 50.27%, rgba(255, 249, 221, .35) 67.28%, #ffeee9 77.89%, rgba(255, 238, 233, .14) 91.09%);
+}
+
+.m_container_fullWidth
+    {
+        width: 89%;
+    }
+.m_textColor
+{
+    color: white;
+}
+.m_toggleIcon{
+    /* background-color: white; */
+    /* color: white; */
+}
+
+#m_Slider .carousel-indicators [data-bs-target]
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#m_Slider .carousel-indicators .active
+{
+    background-color: green;
+}
+.formSection form
+{
+    background-color: #101828;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.m_form-control
+{
+    height: 50px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+.m_bookDemoBtn
+{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+     background-color: #DA0810;
+}
+.m_secondContainer
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.m_secondImages
+{
+    padding-top: 25px;
+  
+}
+
+.m_ThirdSection
+{
+
+    background-color: #101828;
+    padding-bottom: 120px;
+}
+.m_thirdHeading
+{
+    padding-top: 120px;
+  
+}
+.new_course_card
+{
+    min-height: 420px;
+    background: url(/Img/lawentrance/1.webp) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.card_body
+{
+    position: absolute;
+}
+
+.courses-category-list
+{
+    text-decoration: none;
+}
+
+.m_tutorial
+{
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.m_FourthSection
+{
+    padding-bottom: 120px;
+}
