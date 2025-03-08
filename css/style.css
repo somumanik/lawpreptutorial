@@ -35,11 +35,25 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
+    background-color: #101828;
 }
+
 #m_Slider .carousel-indicators .active
 {
     background-color: green;
 }
+.carousel-indicators
+{
+    bottom: -80px !important;
+}
+
+#m_Slider button [data-bs-target], #m_Slider button [data-bs-target]
+{
+   display: none !important;
+}
+
+
+
 .formSection form
 {
     background-color: #101828;
@@ -110,4 +124,10 @@
 .m_FourthSection
 {
     padding-bottom: 120px;
+}
+
+.m_newsImage
+{
+    min-height: 200px;
+    max-height: 200px;
 }

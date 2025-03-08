@@ -23,12 +23,23 @@
         padding-top: 0px;
         padding-bottom: 0px;
     }
+   
 }
 
 @media (max-width: 991px) {
     .m_secondContainer {
         padding-top: 0px;
         padding-bottom: 80px;
+    }
+    .carousel-indicators
+    {
+        
+        bottom: 0px !important;
+    }
+    #m_Slider .carousel-indicators [data-bs-target]
+    {
+        display: none;
+     
     }
  
 }
